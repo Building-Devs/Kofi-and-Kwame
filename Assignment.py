@@ -8,7 +8,7 @@ def main():
     user_score5 = float(input("Enter your fifth test score: "))
 
     with open("studentdetails.txt", "w") as file:
-        file.write(f" You are {user_name}.\n Your user ID is {user_id}.\n Your first test score is {user_score1}.\n Your second test score is {user_score2}.\n Your third test score is {user_score3}.\n Your fourth test score is {user_score4}.\n Your fifth test score is {user_score5}.")
+        file.write(f" You are {user_name}.\n Your user ID is {user_id}.\n Your first test score is {user_score1}%.\n Your second test score is {user_score2}%.\n Your third test score is {user_score3}%.\n Your fourth test score is {user_score4}%.\n Your fifth test score is {user_score5}%.")
 
     with open("studentdetails.txt") as file:
         print(file.readlines())
